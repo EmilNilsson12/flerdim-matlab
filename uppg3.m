@@ -1,6 +1,6 @@
 clear all
 clc
-disp('BestÃ¤m globala min-vÃ¤rdet till fÃ¶ljande funktion')
+disp('Bestäm globala min-värdet till följande funktion')
 disp('f(x) = -e^(-x)*sin(4x) inom intervallet 0 =< x =< 3.')
 disp(' ')
 format long
@@ -16,6 +16,5 @@ x0 = 0.3;
  x = x1;
  y = f(x1);
 
- punktensKoordinater = ['Punktens koordinater Ã¤r : (',num2str(x),', ', num2str(y),')'
-];
+punktensKoordinater = ['Punktens koordinater är : (',num2str(x),', ', num2str(y),')'];
 disp(punktensKoordinater)

@@ -1,7 +1,7 @@
 clear all
 clc
 clf
-%Kod som kontrollerar att station√§ra punkter st√§mmer med handber√§kningarna
+%Kod som kontrollerar att station‰ra punkter st‰mmer med handber‰kningarna
 x = linspace(-2,2,20);
 y = linspace(-2,2,20);
 [X,Y] = meshgrid(x,y);
@@ -22,7 +22,7 @@ Z = (2.*X.^3 - 3.*X.^2 - 6.*X.*Y.*(X - Y - 1));
  movegui(f2,[950,550])
 
  %%
- %X0 och Y0 v√§ljs till godtyckligt n√§ra punkter
+ %X0 och Y0 v‰ljs till godtyckligt n‰ra punkter
  X0 = -0.6;
  Y0 = -0.9;
  for i = 1:7

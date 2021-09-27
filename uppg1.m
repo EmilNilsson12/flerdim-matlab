@@ -12,5 +12,5 @@ f = x0 - cos(x0);
  disp(x1)
  end
 
- %tol = 1e-12;
- %resultat = abs(x1 - cos(x1)) < tol
+ tol = 1e-12;
+ resultat = abs(x1 - cos(x1)) < tol

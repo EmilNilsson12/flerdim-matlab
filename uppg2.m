@@ -1,13 +1,13 @@
 clc
-disp('Vi vill hitta alla lÃ¶sningar till ekvationsystemet:')
+disp('Vi vill hitta alla lösningar till ekvationsystemet:')
 disp('f(a1, a2)= d1*cos(a1) + d2*cos(a1 - a2) = p1')
 disp('g(a1, a2)= d1*sin(a1) + d2*sin(a1 - a2) = p2')
 disp(' ')
 format long
 d1 = 5;
 d2 = 6;
- p1 = 10;
- p2 = 4;
+p1 = 10;
+p2 = 4;
 
 
  a0 = acos(4/5); b0 = a0/3;
@@ -50,12 +50,11 @@ d2 = 6;
  bGrad2 = round(180/pi*b1);
 
  format short
- % fprintf('Ena vinkelparet Ã¤r: ?1= %d och ?2= %d', aGrad1, bGrad1)
- % fprintf('\nDet andra vinkelparet Ã¤r: ?1= %d och ?1= %d', aGrad2, bGrad2)
+%fprintf('Ena vinkelparet är: ?1= %d och ?2= %d', aGrad1, bGrad1)
+%fprintf('\nDet andra vinkelparet är: ?1= %d och ?1= %d', aGrad2, bGrad2)
 
- vinkelpar1 = ['Ena vinkelparet Ã¤r: a1= ',num2str(aGrad1),'Â° och a2= ', num2str(bGrad
-1),'Â°.'];
+vinkelpar1 = ['Ena vinkelparet är: a1= ',num2str(aGrad1),'deg och a2= ', num2str(bGrad1),'deg.'];
 disp(vinkelpar1)
-vinkelpar2 = ['Det andra vinkelparet Ã¤r: a1= ',num2str(aGrad2),'Â° och a2= ', num2str
-(bGrad2),'Â°.'];
+
+vinkelpar2 = ['Det andra vinkelparet är: a1= ',num2str(aGrad2),'deg och a2= ', num2str(bGrad2),'deg.'];
 disp(vinkelpar2)
